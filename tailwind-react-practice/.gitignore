@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# ESLint 관련
+.eslintcache
+
+# Prettier 관련
+.prettiercache
