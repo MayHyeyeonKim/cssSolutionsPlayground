@@ -1,13 +1,12 @@
-import React from 'react';
 import ProfileCard from './components/ProfileCard';
-import TutorInfoCard from './components/TutorInfoCard';
+import TutorInfoCards from './components/TutorInfoCards';
 
 const TutorIntroductionPage = () => {
     return (
         <div>
-            <h1>여기는 튜터 소개 페이지</h1>
+            <div className="text-2xl font-bild text-center pt-4">여기는 튜터 소개 페이지</div>
             <div className="mt-4">
-                <TutorInfoCard />
+                <TutorInfoCards />
                 <ProfileCard />
             </div>
         </div>

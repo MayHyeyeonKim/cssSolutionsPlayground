@@ -8,7 +8,7 @@ import { Navigation } from './Navigation';
 function App() {
     return (
         <Router>
-            <h1 className="text-lg font-bold">My App</h1>
+            <h1 className="text-3xl font-bold text-center py-4 text-pink-800">My Notes for Mastering Tailwind</h1>
             <Navigation />
             <Routes>
                 <Route path="/" element={<LandingPage />} />
