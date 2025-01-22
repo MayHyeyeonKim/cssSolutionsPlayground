@@ -1,13 +1,17 @@
-import React from 'react'
-import ProfileCard from './components/ProfileCard'
+import React from 'react';
+import ProfileCard from './components/ProfileCard';
+import TutorInfoCard from './components/TutorInfoCard';
 
 const TutorIntroductionPage = () => {
-  return (
-    <div>
-        <TutorInfoCard />
-        <ProfileCard />
-    </div>
-  )
-}
+    return (
+        <div>
+            <h1>여기는 튜터 소개 페이지</h1>
+            <div className="mt-4">
+                <TutorInfoCard />
+                <ProfileCard />
+            </div>
+        </div>
+    );
+};
 
-export default TutorIntroductionPage
+export default TutorIntroductionPage;
