@@ -1,10 +1,14 @@
 import React from 'react';
 
-const ProfileCard = () => {
+type ProfileCardProps = {
+    tutor: Tutor;
+};
+
+const ProfileCard = ({ tutor }: ProfileCardProps) => {
     return (
-        <div className='bg-gray-200 rounded-2xl p-4 mx-4 my-4'>
+        <div className="w-full h-full bg-gray-200 flex flex-col justify-center items-center rounded-3xl">
             ProfileCard
-            <div>여긴 내일해보자</div>
+            <div>{tutor.name}</div>
         </div>
     );
 };
